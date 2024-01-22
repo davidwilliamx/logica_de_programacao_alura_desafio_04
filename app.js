@@ -91,29 +91,48 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Atribuindo valor à variável valor1');
-let valor1 = 20;
-
-console.log('- Atribuindo valor à variável valor2');
-let valor2 = 10;
-
-console.log('- Subtração de valor1 com valor2 e atribuindo o resultado na variável resultado.');
-let resultado = valor1 - valor2;
-
-console.log('- Exibindo resultado no console');
-console.log(`O resultado da subtração é ${resultado}.`);
-
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Atribuindo valor à variável valor1');
+// let valor1 = 20;
+//
+// console.log('- Atribuindo valor à variável valor2');
+// let valor2 = 10;
+//
+// console.log('- Subtração de valor1 com valor2 e atribuindo o resultado na variável resultado.');
+// let resultado = valor1 - valor2;
+//
+// console.log('- Exibindo resultado no console');
+// console.log(`O resultado da subtração é ${resultado}.`);
+//
+// console.log('- Fim do programa.');
 
 // ---
 
 /**
- * Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
+ * Peça ao usuário para inserir sua idade com prompt.
+ * Com base na idade inserida, utilize um if para verificar
+ * se a pessoa é maior ou menor de idade,
+ * exibindo uma mensagem apropriada no console.
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Entrada do usuário.');
+let idade = Number(prompt('Informe sua idade: '));
+
+console.log('- Verificando idade do usuário.');
+if (idade >= 18) {
+    console.log('Tudo bem você é Maior de idade.')
+} else {
+    console.log('Desculpe você é Menor de idade.')
+}
+
+// let mensagem = idade < 18 ? 'Desculpe você é Menor de idade.' : 'Tudo bem você é Maior de idade.';
+// console.log(`${mensagem}`);
+
+console.log('- Fim do programa.');
 
 // ---
 
