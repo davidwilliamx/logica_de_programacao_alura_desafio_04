@@ -211,15 +211,15 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Gerando número aleatório.');
-let numero = parseInt(Math.random() * 10000 + 1);
-
-console.log('- Exibindo o valor.')
-console.log(`Número com 5 digitos ${numero}.`);
-
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Gerando número aleatório.');
+// let numero = parseInt(Math.random() * 10000 + 1);
+//
+// console.log('- Exibindo o valor.')
+// console.log(`O Número aleatório é ${numero}.`);
+//
+// console.log('- Fim do programa.');
 
 // ---
 
@@ -228,6 +228,15 @@ console.log('- Fim do programa.');
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Gerando número aleatório entre 1 e 10.');
+let numero = parseInt(Math.random() * 10 + 1);
+
+console.log('- Exibindo o valor.')
+console.log(`O Número aleatório é ${numero}.`);
+
+console.log('- Fim do programa.');
 
 // ---
 
