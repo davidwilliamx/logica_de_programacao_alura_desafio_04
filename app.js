@@ -62,29 +62,50 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Atribuindo valor à variável valor1');
-let valor1 = 10;
-
-console.log('- Atribuindo valor à variável valor2');
-let valor2 = 20;
-
-console.log('- Somando valor1 com valor2 e atribuindo o resultado na variável resultado.');
-let resultado = valor1 + valor2;
-
-console.log('- Exibindo resultado no console');
-console.log(`O resultado da soma é ${resultado}`);
-
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Atribuindo valor à variável valor1');
+// let valor1 = 10;
+//
+// console.log('- Atribuindo valor à variável valor2');
+// let valor2 = 20;
+//
+// console.log('- Resultado da adição de valor1 com valor2 e atribuindo o resultado na variável resultado.');
+// let resultado = valor1 + valor2;
+//
+// console.log('- Exibindo resultado no console');
+// console.log(`O resultado da soma é ${resultado}.`);
+//
+// console.log('- Fim do programa.');
 
 // ---
 
 /**
- * Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a subtração desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.
+ * Crie uma variável chamada "valor1" e outra chamada "valor2",
+ * atribuindo a elas valores numéricos de sua escolha.
+ * Em seguida, realize a subtração desses dois valores e
+ * armazene o resultado em uma terceira variável chamada "resultado".
+ * Utilize o console.log para mostrar a mensagem
+ * "A diferença entre [valor1] e [valor2] é igual a [resultado]."
+ * no console.
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Atribuindo valor à variável valor1');
+let valor1 = 20;
+
+console.log('- Atribuindo valor à variável valor2');
+let valor2 = 10;
+
+console.log('- Subtração de valor1 com valor2 e atribuindo o resultado na variável resultado.');
+let resultado = valor1 - valor2;
+
+console.log('- Exibindo resultado no console');
+console.log(`O resultado da subtração é ${resultado}.`);
+
+console.log('- Fim do programa.');
 
 // ---
 
