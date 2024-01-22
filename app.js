@@ -117,30 +117,48 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Entrada do usuário.');
-let idade = Number(prompt('Informe sua idade: '));
-
-console.log('- Verificando idade do usuário.');
-if (idade >= 18) {
-    console.log('Tudo bem você é Maior de idade.')
-} else {
-    console.log('Desculpe você é Menor de idade.')
-}
-
-// let mensagem = idade < 18 ? 'Desculpe você é Menor de idade.' : 'Tudo bem você é Maior de idade.';
-// console.log(`${mensagem}`);
-
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Entrada do usuário.');
+// let idade = Number(prompt('Informe sua idade: '));
+//
+// console.log('- Verificando idade do usuário.');
+// if (idade >= 18) {
+//     console.log('Tudo bem você é Maior de idade.')
+// } else {
+//     console.log('Desculpe você é Menor de idade.')
+// }
+//
+// // let mensagem = idade < 18 ? 'Desculpe você é Menor de idade.' : 'Tudo bem você é Maior de idade.';
+// // console.log(`${mensagem}`);
+//
+// console.log('- Fim do programa.');
 
 // ---
 
 /**
- * Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
+ * Crie uma variável "numero" e peça um valor com prompt verifique
+ * se é positivo, negativo ou zero.
+ * Use if-else para imprimir a respectiva mensagem.
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Entrada do usuário.');
+let numero = Number(prompt('Informe um número: '))
+
+console.log('- Processando número.');
+
+if (numero < 0) {
+    alert(`O número ${numero} é NEGATIVO.`);
+} else if (numero > 0 ) {
+    alert(`O número ${numero} é POSITIVO.`);
+} else {
+    alert(`O número ${numero} é igual à ZERO.`);
+}
+
+console.log('- Fim do programa.');
 
 // ---
 
