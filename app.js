@@ -167,24 +167,42 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-console.log('- Definindo contador.');
-let contador = 1;
-console.log('- Imprimindo número de 1 a 10 no console.');
-while (contador <= 10) {
-    console.log(`Iteração número ${contador}`);
-    contador++;
-}
-console.log('- Fim do loop.');
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+// console.log('- Definindo contador.');
+// let contador = 1;
+// console.log('- Imprimindo número de 1 a 10 no console.');
+// while (contador <= 10) {
+//     console.log(`Iteração número ${contador}`);
+//     contador++;
+// }
+// console.log('- Fim do loop.');
+// console.log('- Fim do programa.');
 
 // ---
 
 /**
- * Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+ * Crie uma variável "nota" e atribua um valor numérico a ela.
+ * Use if-else para determinar se a nota
+ * é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Entrada do usuário.');
+let nota = Number(prompt('Informe a sua nota: '));
+
+console.log('- Verificação da nota.');
+if (nota > 7) {
+    console.log('- Resultado.');
+    console.log(`Aprovado! Sua nota foi ${nota}.`);
+} else {
+    console.log('- Resultado.');
+    console.log(`Reprovado! Sua nota foi ${nota}.`);
+}
+
+console.log('- Fim verificação.');
+console.log('- Fim do programa.');
 
 // ---
 
