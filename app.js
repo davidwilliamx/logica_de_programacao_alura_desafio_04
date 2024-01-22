@@ -143,22 +143,22 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Entrada do usuário.');
-let numero = Number(prompt('Informe um número: '))
-
-console.log('- Processando número.');
-
-if (numero < 0) {
-    alert(`O número ${numero} é NEGATIVO.`);
-} else if (numero > 0 ) {
-    alert(`O número ${numero} é POSITIVO.`);
-} else {
-    alert(`O número ${numero} é igual à ZERO.`);
-}
-
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Entrada do usuário.');
+// let numero = Number(prompt('Informe um número: '))
+//
+// console.log('- Processando número.');
+//
+// if (numero < 0) {
+//     alert(`O número ${numero} é NEGATIVO.`);
+// } else if (numero > 0 ) {
+//     alert(`O número ${numero} é POSITIVO.`);
+// } else {
+//     alert(`O número ${numero} é igual à ZERO.`);
+// }
+//
+// console.log('- Fim do programa.');
 
 // ---
 
@@ -167,6 +167,16 @@ console.log('- Fim do programa.');
  *
  * */
 
+console.log('- Inicio do programa.');
+console.log('- Definindo contador.');
+let contador = 1;
+console.log('- Imprimindo número de 1 a 10 no console.');
+while (contador <= 10) {
+    console.log(`Iteração número ${contador}`);
+    contador++;
+}
+console.log('- Fim do loop.');
+console.log('- Fim do programa.');
 
 // ---
 
