@@ -5,7 +5,7 @@
  *
  * */
 
-console.log('Boas-vindas!');
+// console.log('Boas-vindas!');
 
 // ---
 
@@ -16,8 +16,8 @@ console.log('Boas-vindas!');
  *
  * */
 
-let nome = 'David';
-console.log(`Olá, ${nome}!`);
+// let nome = 'David';
+// console.log(`Olá, ${nome}!`);
 
 // ---
 
@@ -28,16 +28,26 @@ console.log(`Olá, ${nome}!`);
  *
  * */
 
-nome = 'David Magalhães';
-alert(`Olá, ${nome}`);
+// let nome = 'David Magalhães';
+// alert(`Olá, ${nome}`);
 
 // ---
 
 /**
- * Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?. Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
+ * Utilize o prompt e faça a seguinte pergunta:
+ * Qual a linguagem de programação que você mais gosta?.
+ * Em seguida, armazene a resposta em uma variável e
+ * mostre no console do navegador.
  *
  * */
 
+console.log('- Inicio programa.')
+
+console.log('- Mostra mensagem para o usuário.')
+let linguagem = prompt('Qual a linguagem de programação você mais gosta?');
+
+console.log(`- Linguagem escolhida pelo usuário foi ${linguagem}.`);
+console.log('- Fim programa.')
 
 // ---
 
