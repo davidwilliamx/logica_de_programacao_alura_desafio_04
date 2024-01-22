@@ -187,22 +187,22 @@
  *
  * */
 
-console.log('- Inicio do programa.');
-
-console.log('- Entrada do usuário.');
-let nota = Number(prompt('Informe a sua nota: '));
-
-console.log('- Verificação da nota.');
-if (nota > 7) {
-    console.log('- Resultado.');
-    console.log(`Aprovado! Sua nota foi ${nota}.`);
-} else {
-    console.log('- Resultado.');
-    console.log(`Reprovado! Sua nota foi ${nota}.`);
-}
-
-console.log('- Fim verificação.');
-console.log('- Fim do programa.');
+// console.log('- Inicio do programa.');
+//
+// console.log('- Entrada do usuário.');
+// let nota = Number(prompt('Informe a sua nota: '));
+//
+// console.log('- Verificação da nota.');
+// if (nota > 7) {
+//     console.log('- Resultado.');
+//     console.log(`Aprovado! Sua nota foi ${nota}.`);
+// } else {
+//     console.log('- Resultado.');
+//     console.log(`Reprovado! Sua nota foi ${nota}.`);
+// }
+//
+// console.log('- Fim verificação.');
+// console.log('- Fim do programa.');
 
 // ---
 
@@ -211,6 +211,15 @@ console.log('- Fim do programa.');
  *
  * */
 
+console.log('- Inicio do programa.');
+
+console.log('- Gerando número aleatório.');
+let numero = parseInt(Math.random() * 10000 + 1);
+
+console.log('- Exibindo o valor.')
+console.log(`Número com 5 digitos ${numero}.`);
+
+console.log('- Fim do programa.');
 
 // ---
 
